@@ -8,10 +8,10 @@
 
 ---
 ### Progression
-- [X] Subtask 1: Card and Numbered CardClasses
+- [X] Subtask 1: Card and NumberedCard Classes
 - [ ] Subtask 2: The DrawPile Class
 - [ ] Subtask 3: The DiscardPile Class
-- [ ] Subtask 4: The AbstractPlayerClass
+- [ ] Subtask 4: The Abstract Player Class
 - [ ] Subtask 5: The UnoGame Class
 - [ ] Subtask 6: The Descriptable Interface
 - [ ] Subtask 7: The Main Class
