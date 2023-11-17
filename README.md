@@ -7,6 +7,18 @@
 | 1. File Structure | Structure diagram |
 
 ---
+### Progression
+- [X] Subtask 1: Card and Numbered CardClasses
+- [ ] Subtask 2: The DrawPile Class
+- [ ] Subtask 3: The DiscardPile Class
+- [ ] Subtask 4: The AbstractPlayerClass
+- [ ] Subtask 5: The UnoGame Class
+- [ ] Subtask 6: The Descriptable Interface
+- [ ] Subtask 7: The Main Class
+- [ ] Subtask 8: Extending the Game with ActionCards
+- [ ] Subtask 9: To Infinity and Beyond
+
+---
 ### 1. File Structure
 ```
 dk.sdu.MF.uno
