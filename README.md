@@ -5,6 +5,7 @@
 | Section | Description |
 | ------- | ----------- |
 | 1. File Structure | Structure diagram |
+| 2. Cards | Class diagram |
 
 ---
 ### Progression
@@ -44,3 +45,14 @@
      |      |         |___ WildCard.java
      |      |         |___ WildDraw4Card.java
 ```
+
+---
+### Cards
+Here is the UML class diagram showing how the Uno cards are implemented:
+<p align="center">
+     <img width="555" alt="image" src="https://github.com/MiloFournier/dk.sdu.MF.uno/assets/132404970/a8f3ca78-aad8-42b6-af99-46a4ff3928e1">
+</p>
+
+
+
+
