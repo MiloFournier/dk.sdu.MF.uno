@@ -24,10 +24,11 @@ public class DrawPile {
 
     private void initializeDrawPile(){
         for (Color color : Color.values()){
-            if (color != Color.WILD){
-                for (int number : NumberedCard.ALLOWED_NUMBERS){
-                    cards.add(new NumberedCard(color, number));
-                }
+            if (color == Color.WILD){
+                continue;
+            }
+            for (int number : NumberedCard.ALLOWED_NUMBERS){
+                cards.add(new NumberedCard(color, number));
             }
         }
     }
