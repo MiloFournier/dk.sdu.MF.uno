@@ -24,6 +24,7 @@ public class DrawPile {
 
     private void initializeDrawPile(){
         for (Color color : Color.values()){
+            // Use "continue" to lower the nesting level
             if (color == Color.WILD){
                 continue;
             }
