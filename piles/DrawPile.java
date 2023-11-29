@@ -17,6 +17,11 @@ public class DrawPile {
         shuffleDrawPile();
     }
 
+    public DrawPile(ArrayList<Card> initialCards) {
+        cards = new ArrayList<>(initialCards);
+        shuffleDrawPile();
+    }
+
     private void initializeDrawPile(){
         for (Color color : Color.values()){
             if (color != Color.WILD){
