@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class NumberedCard extends Card {
     public static final int[] ALLOWED_NUMBERS = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    private int number;
+    private final int number;
 
     // It is preferable to create this method in order to prevent
     // high-level nesting in the method NumberedCard.
