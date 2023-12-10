@@ -38,6 +38,8 @@ public class HumanPlayer extends Player {
         } while (!Objects.requireNonNull(chosenCardByPlayer).matches(topCardFromPile));
 
         System.out.println(getName() + " played: " + chosenCardByPlayer);
+        pile.addCard(chosenCardByPlayer);
+        hand.remove(chosenCardByPlayer);
         return chosenCardByPlayer;
     }
 }
