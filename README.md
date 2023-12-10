@@ -13,11 +13,12 @@
 - [X] Subtask 2: The DrawPile Class
 - [X] Subtask 3: The DiscardPile Class
 - [X] Subtask 4: The Abstract Player Class
-- [ ] Subtask 5: The UnoGame Class
-- [ ] Subtask 6: The Descriptable Interface
-- [ ] Subtask 7: The Main Class
-- [ ] Subtask 8: Extending the Game with ActionCards
-- [ ] Subtask 9: To Infinity and Beyond
+- [X] Subtask 5: The Player Sub-classes
+- [ ] Subtask 6: The UnoGame Class
+- [ ] Subtask 7: The Descriptable Interface
+- [ ] Subtask 8: The Main Class
+- [ ] Subtask 9: Extending the Game with ActionCards
+- [ ] Subtask 10: To Infinity and Beyond
 
 ---
 ### 1. File Structure
