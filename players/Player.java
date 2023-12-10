@@ -1,4 +1,4 @@
-package Players;
+package players;
 
 import cards.Card;
 import piles.DrawPile;
@@ -7,7 +7,7 @@ import piles.DiscardPile;
 import java.util.ArrayList;
 
 public abstract class Player {
-    private String name;
+    private final String name;
     ArrayList<Card> hand;
 
     public Player(String name) {
