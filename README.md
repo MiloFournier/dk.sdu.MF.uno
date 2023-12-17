@@ -6,6 +6,7 @@
 | ------- | ----------- |
 | 1. File Structure | Structure diagram |
 | 2. Simple Cards | Class diagram |
+| 3. Players | Class diagram |
 
 ---
 ### Progression
@@ -54,6 +55,16 @@ Here is the UML class diagram showing how the simple Uno cards are implemented:
      <img width="555" alt="image" src="https://github.com/MiloFournier/dk.sdu.MF.uno/assets/132404970/a8f3ca78-aad8-42b6-af99-46a4ff3928e1">
 </p>
 
+---
+### 3. Players
+Here is the UML class diagram showing how the Players are implemented:
+<p align="center">
+     <img width="366" alt="image" src="https://github.com/MiloFournier/dk.sdu.MF.uno/assets/132404970/6db9528d-1f03-4bcd-8ccb-9fcfb0059f8c">
+</p>
 
+There are 2 sublcasses to the Player class:
+- ComputerPlayer
+- HumanPlayer
 
+They both override the `playCard(DiscardPile)` method.
 
